@@ -3,6 +3,7 @@
 ## Linear Regression to Predict MPG
 1. Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 From our *linear regression* summary results we can see that the *vehicle_length* and *ground_clearance* variables provided a non-random amount of variance. 
+
 ![image](https://github.com/ejyongc/MechaCar_Statistical_Analysis/blob/main/Del%201%20-%20Linear%20Regresion.png)
 
 2. Is the slope of the linear model considered to be zero? Why or why not?
@@ -18,9 +19,11 @@ We'd like to note that althpugh this linear model could be used to predict mpg o
 1. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
 When reviewing the cummulative total summary we can see that the sample data does meet this design specifications for all manufacturing lots with an variance of 63.29356
+
 ![image](https://github.com/ejyongc/MechaCar_Statistical_Analysis/blob/main/Del%202%20-%20Suspension%20Table%20Total.png)
 
 It's important to note that when segmenting this data, we can identify that *Lot 3* exceeds the 100 pounds per square inch required per its design specifications. Lot 3 variance is 170.2861224 and it doesn't meet the required standards. 
+
 ![image](https://github.com/ejyongc/MechaCar_Statistical_Analysis/blob/main/Del%202%20-%20Suspension%20Table%20by%20Lot.png)
 
 
