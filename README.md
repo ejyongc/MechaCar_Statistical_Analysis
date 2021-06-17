@@ -3,7 +3,7 @@
 ## Linear Regression to Predict MPG
 1. Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 From our *linear regression* summary results we can see that the *vehicle_length* and *ground_clearance* variables provided a non-random amount of variance. 
-![image](Del 1)
+![image](https://github.com/ejyongc/MechaCar_Statistical_Analysis/blob/main/Del%201%20-%20Linear%20Regresion.png)
 
 2. Is the slope of the linear model considered to be zero? Why or why not?
 No, the slope of the linear model has proven not to be zero since we wer able to reject the null hypothesis. The p-value of the our linear model is *5.35xe-11* which is lower than our significance level of *0.05%*.
@@ -18,10 +18,10 @@ We'd like to note that althpugh this linear model could be used to predict mpg o
 1. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
 When reviewing the cummulative total summary we can see that the sample data does meet this design specifications for all manufacturing lots with an variance of 63.29356
-![image](Del 2)
+![image](https://github.com/ejyongc/MechaCar_Statistical_Analysis/blob/main/Del%202%20-%20Suspension%20Table%20Total.png)
 
 It's important to note that when segmenting this data, we can identify that *Lot 3* exceeds the 100 pounds per square inch required per its design specifications. Lot 3 variance is 170.2861224 and it doesn't meet the required standards. 
-![image](Del 2)
+![image](https://github.com/ejyongc/MechaCar_Statistical_Analysis/blob/main/Del%202%20-%20Suspension%20Table%20by%20Lot.png)
 
 
 ## T-Tests on Suspension Coils
@@ -33,7 +33,7 @@ From the three independent t.tests we can identify the following p-values:
 
 With this study we can identify that *Lot 3* has a p-value of 0.04168 that helps reject the null hypothesis. With this we can conclude that the PSI on *Lot 3* is statistically different from the population mean of 1,500 pounds per square inch. 
 
-![image](Del3)
+![image](https://github.com/ejyongc/MechaCar_Statistical_Analysis/blob/main/Del%203%20-%20T.test%20Results.png)
 
 ## Study Design: MechaCar vs Competition
 On an additional market study, we could run an linear regression to project the maintenance cost for the people who are considering purchasing a *MechaCar* vs other brands. 
