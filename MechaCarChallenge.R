@@ -49,7 +49,7 @@ summary_table <- suspension_data %>% group_by(Manufacturing_Lot) %>% summarize(M
 ?t.test()
 
 # write an RScript using the t.test() function.
-t.test(suspension_data$PSI,mu=1500)
+t.test(suspension_data$PSI,mu=mean(1500))
 
 # explore the subset() function
 ?subset()
@@ -61,9 +61,9 @@ pop_2 <- subset(suspension_data,Manufacturing_Lot=='Lot2')
 pop_3 <- subset(suspension_data,Manufacturing_Lot=='Lot3')
 
 # 2. run the t.test population
-t.test(pop_1$PSI,suspension_data$PSI,mu=1500)
-t.test(pop_2$PSI,suspension_data$PSI,mu=1500)
-t.test(pop_3$PSI,suspension_data$PSI,mu=1500)
+t.test(pop_1$PSI,mu=1500)
+t.test(pop_2$PSI,mu=1500)
+t.test(pop_3$PSI,mu=1500)
 
 
 
